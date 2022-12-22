@@ -6,7 +6,10 @@ public class HelloWorld {
      * You can use the test results to check for differences.
      * @return "Hello, world!"
      */
-    public String sayHello(){
-        return "change me";
+    public static void main(String[]args){
+        System.out.print
+        ("HelloWorld");
     }
+        
+    
 }
