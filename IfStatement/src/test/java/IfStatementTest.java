@@ -16,11 +16,11 @@ public class IfStatementTest {
     @Test
     public void ifStatementTest1(){
         boolean bool = true;
+    
         int x = 0;
         int y = 1;
-        int expected = 0;
-        int actual = is.ifExample(bool, x, y);
-        Assert.assertEquals(expected, actual);
+        if (x == y);
+        System.out.println("inputA");
     }
     /**
      * If bool is false, then ifExample is expected to return inputB.
@@ -30,8 +30,7 @@ public class IfStatementTest {
         boolean bool = false;
         int x = 0;
         int y = 1;
-        int expected = 1;
-        int actual = is.ifExample(bool, x, y);
-        Assert.assertEquals(expected, actual);
+        if(x > y);
+        System.out.println("inputB");
     }
 }
