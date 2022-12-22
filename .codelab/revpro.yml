@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 2
+  :count_tests_passed: 0
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 2
+  :count_tests_passed: 0
   Start:
     :Week: 1
     :Order: 1
@@ -60,7 +60,7 @@
     :Order: 2
     :Type: lab
     :count_tests: 1
-    :count_tests_passed: 2
+    :count_tests_passed: 0
     :tests:
       helloTest: 0
       basicsTest1: 1
