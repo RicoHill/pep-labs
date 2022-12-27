@@ -15,11 +15,12 @@ public class IfStatementTest {
      */
     @Test
     public void ifStatementTest1(){
-        boolean bool = true;
-    
+        
+        boolean c = true; 
         int x = 0;
         int y = 1;
-        if (x == y);
+    
+        if (x > y);
         System.out.println("inputA");
     }
     /**
@@ -27,10 +28,9 @@ public class IfStatementTest {
      */
     @Test
     public void ifStatementTest2(){
-        boolean bool = false;
-        int x = 0;
-        int y = 1;
-        if(x > y);
+        boolean d = false;
+        
+        if(d == false);
         System.out.println("inputB");
     }
 }
