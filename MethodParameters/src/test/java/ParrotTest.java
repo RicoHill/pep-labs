@@ -12,8 +12,15 @@ public class ParrotTest {
     public void parrotTestHello(){
         String input = "hello";
         String expected = "hello";
-        String actual = p.copy(input);
+        String actual = "hello";
+        String input = new p.copy;
         Assert.assertEquals(expected, actual);
+        System.out.println(p.copy(input));
+        System.out.println(expected);
+        System.out.println(actual);
+
+      
+
     }
     /**
      * If p.copy is passed "polly", it should return "polly".
@@ -22,9 +29,11 @@ public class ParrotTest {
     public void parrotTestPolly(){
         String input = "polly";
         String expected = "polly";
-        String p.copy = "polly"; 
-        System.out.println(expected);
-        System.out.println(input);
-        System.out.println(p.copy);
+        String p.copy =  "polly"; 
+        String p.copy = new 
+        
+       /*  System.out.println(expected); */
+       /*  System.out.println(input); */
+        System.out.println(p.copy(input));
     }
 }
