@@ -36,8 +36,9 @@ public class ExpressionsTest {
     @Test
     public void returnNotTest1(){
         boolean input = false;
-        if(input != true);
-        System.out.println(input);
+        boolean c = false; 
+        if(input == true);
+        System.out.println(c);
     }
     /**
      * If input is false, then returnNot(input) should return true.
@@ -56,7 +57,8 @@ public class ExpressionsTest {
         boolean input1 = true;
         boolean input2 = true;
         if(input1 == input2);
-        System.out.println("true");
+        boolean c = true; 
+        System.out.println(c);
     }
     /**
      * If input1 is false and input2 is true, then returnAnd(input1, input2) should return false.
@@ -65,9 +67,11 @@ public class ExpressionsTest {
     public void returnAndTest2(){
         boolean input1 = false;
         boolean input2 = true;
-        boolean expected = false;
+        if(input1 == false);
+        if(input2 == false);
+        boolean c = false; 
         
-        System.out.println(expected);
+        System.out.println(c);
     }
     /**
      * If input1 is false and input2 is false, then returnAnd(input1, input2) should return false.
@@ -131,9 +135,11 @@ public class ExpressionsTest {
     public void returnOrTest4(){
         boolean input1 = false;
         boolean input2 = false;
-        if (input1 == input2);
-        System.out.println(input1);
-        System.out.println(input2);
+        if (input1 == false);
+        if(input2 == false);
+        boolean c = false; 
+        System.out.println(c);
+        
     }
 
 
