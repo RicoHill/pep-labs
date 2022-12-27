@@ -23,7 +23,7 @@ public class ComparatorsTest {
         System.out.println(c);
     }
         
-    }
+    
 
         
 
@@ -198,7 +198,8 @@ public class ComparatorsTest {
     public void notEqualToTest1(){
         int a = 1;
         int b = 1;
-        boolean c = (a != b);
+        boolean c = false;
+        if(a != b);
         System.out.println(c);
     }
     /**
@@ -209,7 +210,8 @@ public class ComparatorsTest {
     public void notEqualToTest2(){
         int a = 1;
         int b = 2;
-        boolean c = (a != b);
+        boolean c = true;
+        if(a != b);
         System.out.println(c);
     }
 }
