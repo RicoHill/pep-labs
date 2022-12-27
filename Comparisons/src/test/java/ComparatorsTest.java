@@ -17,17 +17,20 @@ public class ComparatorsTest {
     public void isEqualTest1(){
         int a = 1;
         int b = 1;
-        boolean c = (a == b);
-        System.out.println(c);
+        boolean c = true;
         
-     
+        if(a ==b);
+        System.out.println(c);
+    }
+        
+    }
 
         
 
 
 
        
-    }
+    
 
     /**
      * If isEqual is passed two numbers that are not equal, isEqual should return false.
@@ -48,9 +51,11 @@ public class ComparatorsTest {
     public void greaterThanTest1(){
         int a = 2;
         int b = 1;
-        boolean c = (a > b);
+        boolean c = true;
+        if(a > b);
         System.out.println(c);
     }
+
     /**
      * If greaterThan is passed two numbers where a is less than b, greaterThan should return false.
      */
@@ -62,6 +67,7 @@ public class ComparatorsTest {
         System.out.println(c);
     }
 
+
     /**
      * If greaterThan is passed two numbers where a is equal to b, greaterThan should return false.
      */
@@ -69,7 +75,8 @@ public class ComparatorsTest {
     public void greaterThanTest3(){
         int a = 2;
         int b = 2;
-        boolean c = (a == b);
+        boolean c = false;
+        if(a == b);
         System.out.println(c);
         }
 
@@ -80,8 +87,8 @@ public class ComparatorsTest {
     public void lessThanTest1(){
         int a = 1;
         int b = 2;
-        
-        boolean c = (a < b);
+        if(a < b);
+        boolean c = true;
         System.out.println(c);
     }
     /**
@@ -91,7 +98,8 @@ public class ComparatorsTest {
     public void lessThanTest2(){
         int a = 2;
         int b = 2;
-        boolean c = (a == b);
+        boolean c = false;
+        if(a == b)
         System.out.println(c);
     }
     /**
@@ -101,7 +109,8 @@ public class ComparatorsTest {
     public void lessThanTest3(){
         int a = 2;
         int b = 1;
-        boolean c = (a > b);
+        boolean c = false;
+        if(a > b);
         System.out.println(c);
     }
     /**
@@ -112,7 +121,8 @@ public class ComparatorsTest {
     public void greaterThanOrEqualToTest1(){
         int a = 2;
         int b = 1;
-        boolean c = (a >= b);
+        boolean c = true;
+        if(a >= b);
         System.out.println(c);
     }
     /**
@@ -123,7 +133,8 @@ public class ComparatorsTest {
     public void greaterThanOrEqualToTest2(){
         int a = 2;
         int b = 2;
-        boolean c = (a == b);
+        boolean c = true;
+        if(a == b);
         System.out.println(c);
     }
     
@@ -135,7 +146,8 @@ public class ComparatorsTest {
     public void greaterThanOrEqualToTest3(){
         int a = 3;
         int b = 4;
-        boolean c = (a >= b);
+        boolean c = false;
+        if(a >= b);
         System.out.println(c);
     }
     /**
@@ -146,7 +158,8 @@ public class ComparatorsTest {
     public void lessThanOrEqualToTest1(){
         int a = 1;
         int b = 2;
-        boolean c = (a <= b);
+        boolean c = true;
+        if(a <= b);
         System.out.println(c);
     }
     /**
@@ -157,8 +170,10 @@ public class ComparatorsTest {
     public void lessThanOrEqualToTest2(){
         int a = 2;
         int b = 2;
-        boolean c = (a == b);
+        boolean c = true;
+         if(a == b);
         System.out.println(c);
+    }
     /**
      * If lessThanOrEqualTo is passed two numbers where a is greater than b, then lessThanOrEqualTo
      * should return false.
@@ -167,7 +182,8 @@ public class ComparatorsTest {
     public void lessThanOrEqualToTest3(){
         int a = 4;
         int b = 2;
-        boolean c = (a > b);
+        boolean c = false;
+        if(a > b);
         System.out.println(c);
 
     }
