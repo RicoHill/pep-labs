@@ -40,12 +40,12 @@
     :git_user_name: RicoHill
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 1
+  :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 12
+  :count_tests_passed: 0
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 12
+  :count_tests_passed: 0
   Start:
     :Week: 1
     :Order: 1
@@ -118,7 +118,7 @@
     :Order: 7
     :Type: lab
     :count_tests: 12
-    :count_tests_passed: 12
+    :count_tests_passed: 0
     :tests:
       returnBooleanTest1: 1
       returnBooleanTest2: 1
@@ -136,6 +136,8 @@
       ifStatementTest2: 0
       parrotTestHello: 0
       parrotTestPolly: 0
+      combineTest1: 0
+      combineTest2: 0
   Add:
     :Week: 1
     :Order: 8
