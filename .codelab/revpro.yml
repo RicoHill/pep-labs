@@ -115,6 +115,18 @@
       ifStatementTest2: 1
       parrotTestHello: 0
       parrotTestPolly: 0
+      returnAndTest1: 0
+      returnAndTest2: 1
+      returnAndTest3: 1
+      returnAndTest4: 1
+      returnNotTest1: 1
+      returnNotTest2: 0
+      returnOrTest1: 0
+      returnOrTest2: 0
+      returnOrTest3: 0
+      returnOrTest4: 1
+      returnBooleanTest1: 0
+      returnBooleanTest2: 1
   BooleanOperators:
     :Week: 1
     :Order: 7
