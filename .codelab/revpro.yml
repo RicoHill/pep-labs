@@ -104,6 +104,8 @@
     :tests:
       combineTest1: 1
       combineTest2: 1
+      ifStatementTest1: 1
+      ifStatementTest2: 0
   IfStatement:
     :Week: 1
     :Order: 6
