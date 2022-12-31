@@ -15,23 +15,22 @@ public class IfStatementTest {
      */
     @Test
     public void ifStatementTest1(){
-        boolean bool = true;
+        
+        boolean c = true; 
         int x = 0;
         int y = 1;
-        int expected = 0;
-        int actual = is.ifExample(bool, x, y);
-        Assert.assertEquals(expected, actual);
+    
+        if (x > y);
+        System.out.println("inputA");
     }
     /**
      * If bool is false, then ifExample is expected to return inputB.
      */
     @Test
     public void ifStatementTest2(){
-        boolean bool = false;
-        int x = 0;
-        int y = 1;
-        int expected = 1;
-        int actual = is.ifExample(bool, x, y);
-        Assert.assertEquals(expected, actual);
+        boolean d = false;
+        
+        if(d == false);
+        System.out.println("inputB");
     }
 }
