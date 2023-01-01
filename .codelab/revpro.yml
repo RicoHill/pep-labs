@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: ricohill-pepgitpodworks-jamqn6mt13c
-    :workspace_url: https://ricohill-pepgitpodworks-jamqn6mt13c.ws-us80.gitpod.io
+    :workspace_id: ricohill-pepgitpodworks-odms49gia53
+    :workspace_url: https://ricohill-pepgitpodworks-odms49gia53.ws-us80.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: javahill@yahoo.com
     :git_user_name: RicoHill
