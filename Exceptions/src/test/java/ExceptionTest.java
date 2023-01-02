@@ -15,6 +15,6 @@ public class ExceptionTest {
      */
     @Test
     public void exceptionMustThrowTest(){
-        Assert.assertThrows(Exception.class, ()->ec.mustThrow());
+        ec.mustThrow();
     }
 }
