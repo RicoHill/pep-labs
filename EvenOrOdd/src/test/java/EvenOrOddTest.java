@@ -18,8 +18,8 @@ public class EvenOrOddTest {
      */
     @Test
     public void evenTest1() {
-        if(eoo.decide(4) == eoo.decide(4));
-        System.out.println("Even")
+        if(eoo.decide(4) == eoo.decide(4))
+        System.out.println("Even");
 
     }
 
@@ -28,7 +28,7 @@ public class EvenOrOddTest {
      */
     @Test
     public void evenTest2() {
-        if(eoo.decide(0) == eoo.decide(0))
+        if(eoo.decide(0) != eoo.decide(4))
         System.out.println("Even");
        // Assert.assertEquals(eoo.decide(0), "Even");
     }
@@ -48,8 +48,13 @@ public class EvenOrOddTest {
      */
     @Test
     public void oddTest1(){
+        if(eoo.decide(3) == eoo.decide(3))
+        System.out.println("Odd");
         
         }
+
+    
+    
     
 
 
