@@ -48,8 +48,7 @@ public class EvenOrOddTest {
      */
     @Test
     public void oddTest1(){
-        if(eoo.decide(3) == eoo.decide(3) )
-            System.out.println("Odd");
+        
         }
     
 
