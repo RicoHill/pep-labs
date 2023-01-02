@@ -20,8 +20,7 @@ public class CauseUncheckedExceptionTest {
     @Test
     public void uncheckedExceptionTest(){
         try{
-            cue.throwUncheckedException();
-            Assert.fail();
+            cue.throwUncheckedException{}            fail();
         }catch(Exception e){
             Assert.assertTrue(e instanceof RuntimeException);
         }
