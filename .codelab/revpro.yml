@@ -216,6 +216,8 @@
       whileLoopTest2: 1
       whileLoopTest3: 1
       whileLoopTest4: 1
+      mathClassTest1: 0
+      mathClassTest2: 0
   ForLoop:
     :Week: 2
     :Order: 6

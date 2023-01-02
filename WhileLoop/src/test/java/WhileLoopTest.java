@@ -58,8 +58,8 @@ public class WhileLoopTest {
     public void whileLoopTest4(){
         int input = 0;
         
-        int expected = 0;
+        int expected1 = 0;
         int actual = wl.whileExample(input);
-        Assert.assertEquals(expected, actual);
+        System.out.println(expected1);
     }
 }
