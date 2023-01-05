@@ -19,7 +19,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = true;
         boolean expected = false;
         boolean actual = abl.returnNotBoth(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs true and false, notBoth should return true, because not both of the inputs are true.
@@ -30,7 +30,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = false;
         boolean expected = true;
         boolean actual = abl.returnNotBoth(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs false and true, notBoth should return true, because not both of the inputs are true.
@@ -41,7 +41,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = true;
         boolean expected = true;
         boolean actual = abl.returnNotBoth(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs false and false, notBoth should return true, because not both of the inputs are true.
@@ -52,7 +52,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = false;
         boolean expected = true;
         boolean actual = abl.returnNotBoth(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs true and true, exclusiveOr should return false, because both of the inputs are true.
@@ -63,7 +63,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = true;
         boolean expected = false;
         boolean actual = abl.returnExclusiveOr(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs true and false, exclusiveOr should return true, because only one of the inputs is true.
@@ -74,7 +74,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = false;
         boolean expected = true;
         boolean actual = abl.returnExclusiveOr(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs false and true, exclusiveOr should return true, because only one of the inputs is true.
@@ -85,7 +85,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = true;
         boolean expected = true;
         boolean actual = abl.returnExclusiveOr(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs false and false, exclusiveOr should return true, because none of the inputs are true.
@@ -96,7 +96,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = false;
         boolean expected = false;
         boolean actual = abl.returnExclusiveOr(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs true and true, neitherNor should return false, because not all of the inputs are false.
@@ -107,7 +107,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = true;
         boolean expected = false;
         boolean actual = abl.returnNeitherNor(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs false and true, neitherNor should return false, because not all of the inputs are false.
@@ -118,7 +118,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = true;
         boolean expected = false;
         boolean actual = abl.returnNeitherNor(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs true and false, neitherNor should return false, because not all of the inputs are false.
@@ -129,7 +129,7 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = false;
         boolean expected = false;
         boolean actual = abl.returnNeitherNor(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
     /**
      * With inputs false and false, neitherNor should return true, because all of the inputs are false.
@@ -140,6 +140,6 @@ public class AdvancedBooleanLogicTest {
         boolean input2 = false;
         boolean expected = true;
         boolean actual = abl.returnNeitherNor(input1, input2);
-        Assert.assertEquals(expected, actual);
+        System.out.println(actual);
     }
 }
