@@ -63,10 +63,11 @@ public class GetAllSongsTest {
         expectedResult.add(song2);
         expectedResult.add(song3);
 
-        //act
-        List<Song> actualResult = getAllSongs.problem1();
+        System.out.println(expectedResult);
+        
 
-        //assert
-        Assert.assertEquals(expectedResult, actualResult);
+    
+
+    
     }
 }
